@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-image: url('floral-background.jpg');
+    background-image: url('floral-background.jpg'); /* Adjust if you use a different background image */
     background-size: cover;
     color: #333;
     overflow: hidden;
