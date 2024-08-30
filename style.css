@@ -28,6 +28,12 @@ h1 {
     color: #800000; /* Maroon color */
 }
 
+.surprise-link {
+    color: #800000; /* Maroon color */
+    font-size: 20px; /* Adjust size as needed */
+    text-decoration: underline; /* Optional, to add underline */
+}
+
 .cat-container {
     position: absolute;
     top: 10%;
