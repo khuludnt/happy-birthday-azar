@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('floral-background.jpg');
+    background-size: cover;
+    color: #333;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 100px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+}
+
+h1, p {
+    font-style: italic;
+}
+
+h1 {
+    color: #007BFF;
+}
+
+.cat-container {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.cat-flower {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    animation: moveAround 10s infinite linear;
+}
+
+@keyframes moveAround {
+    0% {
+        transform: translate(-150px, 0) rotate(0deg);
+    }
+    25% {
+        transform: translate(150px, -150px) rotate(90deg);
+    }
+    50% {
+        transform: translate(0, 150px) rotate(180deg);
+    }
+    75% {
+        transform: translate(-150px, 150px) rotate(270deg);
+    }
+    100% {
+        transform: translate(-150px, 0) rotate(360deg);
+    }
+}
