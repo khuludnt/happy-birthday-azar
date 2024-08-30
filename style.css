@@ -1,12 +1,16 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-image: url('floral-background.jpg'); /* Adjust if you use a different background image */
-    background-size: cover;
-    color: #333;
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
     overflow: auto; /* Ensure scrolling is enabled */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('floral-background.jpg'); /* Adjust if using a different background image */
+    background-size: cover;
+    color: #333;
 }
 
 .container {
